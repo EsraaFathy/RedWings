@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Red Wings</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_user_name">Enter user Name</string>
+    <string name="log_in">Log in</string>
+    <string name="loginLogo">Logo Red Winges</string>
+    <string name="user_logo">user name</string>
+    <string name="password">Password</string>
+    <string name="cafe">Cafe</string>
+    <string name="pc">PS</string>
+    <string name="make_order">Make Order</string>
+    <string name="menu">Menu...</string>
+    <string name="log_out">Log out</string>
+    <string name="captain">Captain</string>
+    <string name="take_away">Take away</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="manage_menu">Manage menu</string>
+
+    <string name="manager">Manager</string>
+    <string name="meal_drink">Add Meal or drink</string>
+    <string name="add_meal_or_drink">Add Meal or Drink</string>
+    <string name="add_price">Add Price</string>
+    <string name="add">Add</string>
+    <string name="remmber_password">Remmber Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="please_add_data">Please add Data</string>
+
+    <string name="ittem_deleted"> deleted</string>
+    <string name="notes">Notes</string>
+    <string name="mealname">MealName</string>
+    <string name="meal_number">Meal Number</string>
+    <string name="table_number">Table Number</string>
+    <string name="confirm_order">Confirm Order</string>
+    <string name="write_user_name">Write user name</string>
+    <string name="delete_all">Delete All....</string>
+    <string name="table_number1">Table number</string>
+    <string name="time">Time</string>
+    <string name="_5">5</string>
+    <string name="_30_1_2010_3_34pm">30-1-2010 3:34pm</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="table_5">Table 5</string>
+    <string name="_1">1</string>
+    <string name="tea">Tea</string>
+    <string name="cane">Cane</string>
+    <string name="coffee">coffee</string>
+    <string name="finish">Finish</string>
+    <string name="add_order">add Order</string>
+    <string name="_40eg">40eg</string>
+    <string name="cafe_00">Cafe 00</string>
+    <string name="appwidget_text">Maeke Order</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add order</string>
+    <string-array name="tables_cafe">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="tables_ps">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+
+    </string-array>
+</resources>

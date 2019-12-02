@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray1"
+    android:orientation="vertical"
+    tools:context=".AddToMenu">
+
+    <include layout="@layout/action_par" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/manage_menu"
+        android:textColor="@color/yellow"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/editTextAddMeal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/add_meal_or_drink"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:paddingHorizontal="50sp"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        tools:ignore="UnusedAttribute" />
+
+    <EditText
+        android:id="@+id/editTextAddPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/add_price"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:paddingHorizontal="50sp"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        tools:ignore="UnusedAttribute" />
+
+    <Button
+        android:id="@+id/buttonAddMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/login_background"
+        android:text="@string/add"
+        android:paddingBottom="1dp"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/buttonCancelMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/login_background"
+        android:text="@string/cancel"
+        android:textSize="40sp" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:id="@+id/listViewMangeMenu"/>
+</LinearLayout>

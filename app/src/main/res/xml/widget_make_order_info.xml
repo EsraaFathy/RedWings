@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.example.redwings.WidgetMakeOrderConfigureActivity"
+    android:initialKeyguardLayout="@layout/widget_make_order"
+    android:initialLayout="@layout/widget_make_order"
+    android:minWidth="110dp"
+    android:minHeight="40dp"
+    android:previewImage="@mipmap/ic_launcher"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="86400000"
+    android:widgetCategory="home_screen"
+    ></appwidget-provider>

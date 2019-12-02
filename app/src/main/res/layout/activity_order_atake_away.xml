@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".OrderATakeAway">
+
+    <include layout="@layout/action_par" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/take_away"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@color/red"
+        android:textSize="45sp" />
+
+    <EditText
+        android:id="@+id/takeawayusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/write_user_name"
+        android:padding="5dp"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHint="@color/gray2"
+        android:textSize="30sp"
+        tools:ignore="Autofill,TextFields" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/make_order"
+        android:textSize="30sp"
+        android:id="@+id/makeOrder_takeAway"
+        android:background="@drawable/login_background" />
+
+</LinearLayout>

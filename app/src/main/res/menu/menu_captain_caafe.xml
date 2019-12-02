@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res-auto"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    app:ignore="NamespaceTypo">
+    <item
+        android1:id="@+id/captain"
+        android1:title="@string/captain"
+        android:showAsAction="always"/>
+    <item
+        android1:title="@string/cafe"
+        android1:icon="@drawable/ic_cafe"
+        android:showAsAction="always"/>
+    <item
+        android1:title="@string/pc"
+        android1:icon="@drawable/ic_pc"
+        android1:id="@+id/cafe_menu_pc_action_par"/>
+    <item
+        android1:id="@+id/log_out"
+        android1:title="@string/log_out"
+        android1:icon="@drawable/ic_log_out"
+        android:showAsAction="never" />
+
+</menu>

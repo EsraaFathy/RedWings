@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1062062436828",
+    "firebase_url": "https://redwinges-837e4.firebaseio.com",
+    "project_id": "redwinges-837e4",
+    "storage_bucket": "redwinges-837e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062062436828:android:7a8f951808825587",
+        "android_client_info": {
+          "package_name": "com.example.redwings"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062062436828-e3ds6qa8mkr4t7ft0s8jvlr62afboblo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.redwings",
+            "certificate_hash": "8cb27776870b33df27f205caaf56ba78c57a9f01"
+          }
+        },
+        {
+          "client_id": "1062062436828-r87t0njb4v3h4o824o01m82jn9g3s53i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACgeixWhu4J-jle8DA4MNCvgQPqavbQVM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062062436828-r87t0njb4v3h4o824o01m82jn9g3s53i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/gray2"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cafe"
+        android:id="@+id/cafeeee"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:padding="2dp"
+        android:textColor="@color/yellow"
+        />
+
+</LinearLayout>
